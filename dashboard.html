@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>Social Media Dashboard</h1>
+        <div class="auth">
+            <form id="login-form">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <button id="logout" style="display: none;">Logout</button>
+        </div>
+        <div class="account-links" style="display: none;">
+            <h2>Connect Your Accounts</h2>
+            <button id="connect-facebook">Connect Facebook</button>
+            <button id="connect-twitter">Connect Twitter</button>
+            <button id="connect-instagram">Connect Instagram</button>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
